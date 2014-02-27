@@ -26,9 +26,11 @@ compton -CGb &
 ##Network Manager Applet
 (sleep 1s && nm-applet) &
 
-##Dropbox
+##Dropbox & Google Drive
 # wait a long time for network (else hangs)
 (sleep 60s && dropboxd) &
+(sleep 60s && sync_grive.sh) &
+
 
 ##Conky
 (sleep 3s && conky) &
