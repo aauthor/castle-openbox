@@ -31,6 +31,8 @@ compton -CGb &
 (sleep 60s && dropboxd) &
 (sleep 60s && sync_grive.sh) &
 
-
 ##Conky
 (sleep 3s && conky) &
+
+##redshift
+(sleep 4s && redshift -l 39.1:-84.5) &
