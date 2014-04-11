@@ -425,7 +425,7 @@
       </action>
     </keybind>
     <!-- for X201 tablet -->
-    <keybind>
+    <keybind key="XF86Launch5">
       <action name="Execute">
         <command>~/bin/wacrot normal</command>
       </action>
