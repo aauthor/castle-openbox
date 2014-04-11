@@ -425,25 +425,26 @@
       </action>
     </keybind>
     <!-- for X201 tablet -->
-    <action name="Execute">
-      <command>~/bin/wacrot normal</command>
-    </action>
-  </keybind>
-  <keybind key="XF86Launch1">
-    <action name="Execute">
-      <command>~/bin/wacrot normal</command>
-    </action>
-  </keybind>
-  <keybind key="XF86Launch6">
-    <action name="Execute">
-      <command>/home/aauthor/bin/wacrot toggle</command>
-    </action>
-  </keybind>
-  <keybind key="XF86Launch7">
-    <action name="Execute">
-      <command>xournal</command>
-    </action>
-  </keybind>
+    <keybind>
+      <action name="Execute">
+        <command>~/bin/wacrot normal</command>
+      </action>
+    </keybind>
+    <keybind key="XF86Launch1">
+      <action name="Execute">
+        <command>~/bin/wacrot normal</command>
+      </action>
+    </keybind>
+    <keybind key="XF86Launch6">
+      <action name="Execute">
+        <command>/home/aauthor/bin/wacrot toggle</command>
+      </action>
+    </keybind>
+    <keybind key="XF86Launch7">
+      <action name="Execute">
+        <command>xournal</command>
+      </action>
+    </keybind>
   </keyboard>
   <mouse>
     <dragThreshold>1</dragThreshold>
