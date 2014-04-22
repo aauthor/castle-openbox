@@ -1,5 +1,5 @@
-##Display Config
-~/setup_display.sh &
+##Machine Dependent Config
+source ~/.config/openbox/autostart.custom &
 
 ##Background
 feh --bg-center ~/background.png
