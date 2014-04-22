@@ -21,9 +21,6 @@ compton -CGb &
 ##Sound Icon
 (sleep 1s && volumeicon) &
 
-##Network Manager Applet
-(sleep 1s && nm-applet) &
-
 ##Dropbox & Google Drive
 # wait a long time for network (else hangs)
 (sleep 60s && dropboxd) &
